@@ -14,7 +14,7 @@ public class CustomerController {
 
         Address address = new Address("115 kethsiri garden", "london", "W1W 6UW");
 
-        return new Customer(id, "Ada lovelace", "ada@example.com", address);
+        return new Customer(id, "Ada lovelace", "ada@example.com", address, new String[]{"vip", "online"});
 
     }
 }
